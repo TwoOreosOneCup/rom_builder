@@ -6,8 +6,8 @@ GITHUB_EMAIL=lavendersenpai001@gmail.com
 KBUILD_BUILD_USER="kaneki"
 KBUILD_BUILD_HOST="genjutsu"
 
-export oem=xiaomi
-export device=lavender
+export oem=samsung
+export device=a5y17lte
 
 ROM="LineageOS"
 manifest_url="https://github.com/LineageOS/android"
