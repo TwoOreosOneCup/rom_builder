@@ -1,20 +1,20 @@
 #!/bin/bash
 
-GITHUB_USER=ExpressLuke
-GITHUB_EMAIL=expressluke@turbox.uk
+GITHUB_USER=TwoOreosOneCup
+GITHUB_EMAIL=lavendersenpai001@gmail.com
 
-KBUILD_BUILD_USER="Luke"
-KBUILD_BUILD_HOST="ExpressDrone"
+KBUILD_BUILD_USER="kaneki"
+KBUILD_BUILD_HOST="genjutsu"
 
-export oem=motorola
-export device=surnia
+export oem=xiaomi
+export device=lavender
 
-ROM="AOSiP"
-manifest_url="https://github.com/AOSiP/platform_manifest"
-export rom_vendor_name="aosip" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+ROM="LineageOS"
+manifest_url="https://github.com/LineageOS/android"
+export rom_vendor_name="lineage" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="lineage-16.0"
 
-release_repo="ExpressLuke/github-releases"
+release_repo="TwoOreosOneCup/rom-releases"
 
 timezone="Europe/London"
  
